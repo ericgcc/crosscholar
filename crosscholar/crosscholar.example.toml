@@ -1,0 +1,21 @@
+# The directory must exists
+download_dir = 'C:\Path\To\Download\Dir\'
+
+# Speed limits
+# Maximum number of requests sent to Google per second, minute and hour, correspondingly
+limits = [2, 9, 540] # integers greather than 0, default: [2, 9, 540]
+
+### If the following vars are not configured, errors may occur
+# Firefox driver only
+driver_dir = 'C:\Path\To\geckodriver.exe'
+
+[crossref]
+enabled = true # default: true (recommended)
+mail_to = 'someone@example.com'
+
+[notify]
+enabled = true # default: false
+mail_from = 'someone@example.com'
+mail_pass = 'passwod'
+mail_host = 'smtp.gmail.com:587'
+mail_to = 'someone@exmample.com'
