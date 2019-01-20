@@ -4,7 +4,7 @@ crosscholar
 
 Crosscholar is an application that collects scholarly data from Google Scholar and Crossref.
 
-It's a command line scraper made with python that queries and parses Google Scholar's output crossing each record with crossref. This project is inspired by [PyScholar](https://github.com/dnlcrl/PyScholar), and until now, is able to scrap Google Scholar more than 10 hours in a row, without being banned.
+It's a command line scraper made with python that queries and parses Google Scholar's output crossing each record with crossref. This project is inspired by PyScholar(https://github.com/dnlcrl/PyScholar), and until now, is able to scrap Google Scholar more than 10 hours in a row, without being banned.
 
 
 * Free software: MIT License
